@@ -1,0 +1,11 @@
+title: "Peter Taylor"
+description: "Software developer focused on .NET, Python, APIs, and databases."
+
+theme: jekyll-theme-dinky
+
+url: "https://ptaylor-dev.github.io"
+baseurl: ""
+
+repository: ptaylor-dev/ptaylor-dev.github.io
+
+show_downloads: false

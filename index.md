@@ -49,9 +49,9 @@ I deliberately chose a scope that would challenge me within the course timeline.
 [View the Live Demo here!](https://ptaylor-dev.github.io/RescueAnimalDashboard/){:target="_blank" rel="noopener noreferrer"}
 
 
-[Original artifact source code](https://github.com/ptaylor-dev/snhu-cs-340-client-server-development)
+[Original artifact source code](https://github.com/ptaylor-dev/snhu-cs-340-client-server-development){:target="_blank" rel="noopener noreferrer"}
 
-[Enhanced artifact source code](https://github.com/ptaylor-dev/RescueAnimalDashboard)
+[Enhanced artifact source code](https://github.com/ptaylor-dev/RescueAnimalDashboard){:target="_blank" rel="noopener noreferrer"}
 
 ![Original PyDash dashboard screenshot]({{ '/assets/images/AnimalRescueDashboardOriginal.png' | relative_url }})
 Original PyDash dashboard from CS-340 course
@@ -69,7 +69,7 @@ Students were expected to use the enhancements in these three categories to demo
 4.	Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 5.	Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
 
-[See final course outcome alignment justification](#course-outcome-alignment)
+[See final course outcome alignment justification](#course-outcome-alignment-3)
 
 ## Enhancement Plan
 
@@ -346,7 +346,7 @@ This didn't end up being too complicated to change, but the performance dropped 
 
 I ended up spending two more days moving all of the sorting, filtering, and pagination logic from the frontend, where it was close to the MudBlazor table, to the backend. In hindsight, this is of course where it should have been all along. My decision to use a homegrown merge sort had suggested to me that the frontend made more sense, but sorting and filtering 10,000 records without the benefit of the server environment was not workable. It was at this point that I added the AnimalQuery and AnimalResponse classes. Before this I was just fetching the entire list of animals from the API. This mistake taught me more about web API design than any previous project I'd worked on.
 
-You can see the original server design in GitHub [here](https://github.com/ptaylor-dev/RescueAnimalDashboard/tree/11ea9255c1b23712299676eae522920d7ffafdfd).
+You can see the original server design in GitHub [here](https://github.com/ptaylor-dev/RescueAnimalDashboard/tree/11ea9255c1b23712299676eae522920d7ffafdfd){:target="_blank" rel="noopener noreferrer"}.
 
 ### Course Outcome Alignment
 
